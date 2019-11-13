@@ -130,12 +130,9 @@ var json = {
                 ]
             },
             {
-                type: "text",
                 name: "name",
-                title: "Name:",
-                type: "text",
-                name: "email",
-                title: "Your e-mail"
+                title: "Please enter your name",
+                type: "text"
             }
         ]
     }],

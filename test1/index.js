@@ -7,24 +7,19 @@ var json = {
 title: "Software developer survey.",
 pages: [
     {
-        title: "What operating system do you use?",
         questions: [
             {
                 type: "checkbox",
                 name: "opSystem",
-                title: "OS",
+                title: "What operating system do you use?",
                 hasOther: true,
                 isRequired: true,
                 choices: ["Windows", "Linux", "Macintosh OSX"]
-            }
-        ]
-    }, {
-        title: "What language(s) are you currently using?",
-        questions: [
+            },
             {
                 type: "checkbox",
                 name: "langs",
-                title: "Please select from the list",
+                title: "What language(s) are you currently using?",
                 colCount: 4,
                 isRequired: true,
                 choices: [
@@ -61,14 +56,14 @@ pages: [
                 ]
             }
         ]
-    },
+        
+    }, 
     {
-        title: "How long have you been programming for?",
         questions: [
             {
                 type: "checkbox",
                 name: "years",
-                title: "Please select from the list",
+                title: "How long have you been programming for?",
                 isRequired: true,
                 choices: [
                     "Less than 6 months",
@@ -76,16 +71,11 @@ pages: [
                     "3 years to less than 5 years",
                     "5 years or more"
                 ]
-            }
-        ]
-    },
-    {
-        title: "Are you a student?",
-        questions: [
+            },
             {
                 type: "checkbox",
                 name: "student",
-                title: "Please select from the list",
+                title: "Are you a student?",
                 isRequired: true,
                 hasOther: true,
                 choices: [ "Yes", "No"]
@@ -93,12 +83,11 @@ pages: [
         ]
     },
     {
-        title: "How much time do you spend on a computer each day?",
         questions: [
             {
                 type: "checkbox",
                 name: "time",
-                title: "Please select from the list",
+                title: "How much time do you spend on a computer each day?",
                 isRequired: true,
                 hasOther: true,
                 choices: [
@@ -106,16 +95,11 @@ pages: [
                     "3 hours to less than 6 hours",
                     "All day"
                 ]
-            }
-        ]
-    },
-    {
-        title: "How often do you take breaks from the computer",
-        questions: [
+            },
             {
                 type: "checkbox",
                 name: "breaks",
-                title: "Please select from the list",
+                title: "How often do you take breaks from the computer",
                 isRequired: true,
                 hasOther: true,
                 choices: [
@@ -127,22 +111,16 @@ pages: [
         ]
     },
     {
-        title: "What do you like to do outside of work?",
         questions: [
             {
                 type: "text",
                 name: "Answer",
-                title: "Please put your answer in the space provided:"
-            }
-        ]
-    },
-    {
-        title: "What programming software do you work with?",
-        questions: [
+                title: "What do you like to do outside of work?"
+            },
             {
                 type: "checkbox",
                 name: "software",
-                title: "Please select from the list",
+                title: "What programming software do you work with?",
                 isRequired: true,
                 hasOther: true,
                 choices: [
@@ -152,15 +130,15 @@ pages: [
                     "Android Studio"
                 ]
             }
+
         ]
     },
     {
-        title: "What time do you typically wake up in the morning?",
         questions: [
             {
                 type: "checkbox",
                 name: "wakeup",
-                title: "Please select from the list",
+                title: "What time do you typically wake up in the morning?",
                 isRequired: true,
                 hasOther: true,
                 choices: [
@@ -169,22 +147,14 @@ pages: [
                     "Sometime before 10 AM",
                     "When I feel like it"
                 ]
-            }
-        ]
-    }, {
-        title: "Please enter your name and e-mail",
-        questions: [
+            },
             {
-                type: "text",
                 name: "name",
-                title: "Name:"
-            }, {
-                type: "text",
-                name: "email",
-                title: "Your e-mail"
+                title: "Please enter your name",
+                type: "text"
             }
         ]
-    }
+    }, 
 ]
 };
 
