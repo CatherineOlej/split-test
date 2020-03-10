@@ -21,6 +21,6 @@ User will be prompted to a survey site consisted of 10 questions
 
 ## Authors
 
-** *Richard Hildred - initial creator
-** *Catherine Olejarczyk - forked and recreated to custom specifications
+* **Richard Hildred - initial creator
+* **Catherine Olejarczyk - forked and recreated to custom specifications
 
