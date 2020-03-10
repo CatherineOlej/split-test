@@ -16,11 +16,11 @@ User will be prompted to a survey site consisted of 10 questions
 
 ## Built with
 
-*Javascript, HTML5
-*Heroku
+* Javascript, HTML5
+* Heroku
 
 ## Authors
 
-* **Richard Hildred - initial creator
-* **Catherine Olejarczyk - forked and recreated to custom specifications
+* **Richard Hildred** - initial creator
+* **Catherine Olejarczyk** - forked and recreated to custom specifications
 
